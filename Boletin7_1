@@ -1,0 +1,22 @@
+package boletin7_1;
+
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author dam1
+ */
+public class Boletin7_1 {
+
+    public static void main(String[] args) {
+        int num = 0;
+        String auxNum = JOptionPane.showInputDialog("Introduzca un número que sea positivo: ");
+        num = Integer.parseInt(auxNum);
+        if (num >= 0) {
+            JOptionPane.showMessageDialog(null, "El número " + num + " es positivo.");
+
+        }
+
+    }
+
+}
